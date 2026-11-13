@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Vinted Load & Sort",
+  "version": "1.0.0",
+  "description": "Loads every item on a Vinted list page, then sorts: sold items first, the rest by price low to high.",
+  "permissions": ["activeTab", "scripting"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Load all & sort (sold first, then price)" }
+}
